@@ -1,0 +1,328 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+	}
+#MainDiv{
+width:100%;
+}
+td {
+	font:16px arial;
+	color:#333333;
+	font-weight:bold;
+	}
+
+td input{
+	font:16px arial;
+	}
+	
+a {
+	color:#00496C;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+a:hover {
+	color: #990000;
+	text-decoration:underline;
+	}
+	
+h3{
+	color:#7F2626;
+	font-size:13px;
+	list-style-type: square;
+	list-style-position: outside;
+}
+	
+/* ID Styles */
+
+#navigation a {
+	text-decoration:none;
+	}
+	
+#navigation a:hover {
+	color: #99CCFF;
+	}
+
+#padding {
+	padding:20px 5px 20px 5px;
+	}
+	
+#calendar td {
+	border: 1px solid rgb(0,51,153);
+	}
+	
+#noborder td {
+	border: 0px;
+	}
+	
+#weekdays th {
+	font:11px arial;
+	color: #ffffff;
+	font-weight:bold;
+	border: 0px;
+	padding:2px;
+	}
+
+#calheader td {
+	font-weight:bold;
+	}
+
+/* Class Styles */
+
+.logo {
+	font:18px times new roman;
+	color: #0E177C;
+	letter-spacing:.2em;
+	font-weight:bold;
+	line-height:22px;
+	text-align:right;
+	}
+
+.tagline {
+	font:11px times new roman;
+	color: #cc0000;
+	letter-spacing:.1em;
+	}
+
+.smallText {
+	font:12px times new roman;
+	color: #CC3300;
+	line-height:18px;
+	}
+
+.pageHeader {
+	font:30px times new roman;
+	color: #CC3300;
+	letter-spacing:.1em;
+	line-height:38px;
+	}
+	
+.bodyText {
+	font:11px arial;
+	color:#333333;
+	line-height:24px;
+	}
+	
+.pageName {
+	font:20px georgia;
+	color: #CC3300;
+	letter-spacing:.1em;
+	line-height:26px;
+	}
+	
+.pageMenu {
+	font:20px georgia;
+	color: #0066cc;
+	letter-spacing:.1em;
+	line-height:36px;
+	}
+	
+.pageMenu a{
+	color: #0066cc;
+}
+	
+.subHeader {
+	font:14px times new roman;
+	color: #003399;
+	font-weight:bold;
+	line-height:20px;
+	letter-spacing:.1em;
+	}
+	
+.navText {
+	font:10px arial;
+	color: #333300;
+	letter-spacing:.1em;
+	}
+	
+/* --------------------------------------- */
+	
+.menu {
+font-family: "·s²Ó©úÅé"; 
+width:730px; height:31px;
+margin:0; 
+}
+.menu ul {
+padding:0; 
+margin:0 ;
+list-style-type: none; 
+}
+.menu ul li {
+float:left; 
+position:relative;
+}
+.menu ul li a, .menu ul li a:visited {
+display:block; 
+text-align:center; 
+text-decoration:none; 
+width:104px; 
+height:30px; 
+color:#FFFFFF; 
+border:1px solid #fff;
+border-width:1px 1px 0 0;
+background:#cc0000; 
+line-height:30px; 
+font-size:11px;
+}
+.menu ul li ul {
+display: none;
+}
+.menu ul li:hover a {
+color:#fff; 
+background:#cc0000;
+}
+.menu ul li:hover ul {
+display:block; 
+position:absolute; 
+top:31px; 
+left:0; 
+width:105px;
+}
+.menu ul li:hover ul li a {
+display:block; 
+background:#cc0000; 
+color:#FFF;
+}
+.menu ul li:hover ul li a:hover {
+background: #cc0000; 
+color:#000;
+}
+.menuNow{
+color:#FFFFFF;
+}
+/* --------- DateBar --------- */
+#DateFrame{
+	width:100%;
+	padding: 5px 10px 16px 10px;	
+}
+#DateFrameTree{
+	padding: 5px 6px 5px 6px;	
+	border-bottom: 1px solid #C4C7CC;			
+}
+
+#WindowDateFrame{
+	padding: 5px 10px 16px 10px;	
+	border-bottom: 1px solid #C4C7CC;			
+}
+#DateFrame #DateBar{
+	width: 97%;
+/*	overflow: scroll;
+	overflow-y: visible;	
+	scrollbar-face-color: #FAFAFA; 
+	scrollbar-shadow-color: #D1D1D1; 
+	scrollbar-highlight-color: #F9F9F9; 
+	scrollbar-3dlight-color: #FFFFFF; 
+	scrollbar-darkshadow-color: #FFFFFF; 
+	scrollbar-track-color: #E6E6E6; 
+	scrollbar-arrow-color: #A1A1A1;
+*/
+}
+
+#DateFrameTree #DateBar{
+	width: 99%;
+	overflow: scroll;
+	overflow-y: visible;	
+/*	scrollbar-face-color: #FAFAFA; 
+	scrollbar-shadow-color: #D1D1D1; 
+	scrollbar-highlight-color: #F9F9F9; 
+	scrollbar-3dlight-color: #FFFFFF; 
+	scrollbar-darkshadow-color: #FFFFFF; 
+	scrollbar-track-color: #E6E6E6; 
+	scrollbar-arrow-color: #A1A1A1;	
+*/}
+#TitleBar {
+	border-top: 1px solid #C4C7CC;	
+	padding: 5px 2px;	
+	background: url(../_img/bateBg.jpg) #ECECEC;		
+	font-weight: bolder;
+}
+
+#DateBar {
+	font-size: 12px;
+	line-height: 15px;
+	padding: 2px 2px;
+	border: 1px solid #A1A1A1;	
+	background: #D1D1D1;
+	margin: 0 0 10px 0;
+}
+#DateHide {
+	display: none;
+}
+
+#DateBar table{
+	border-right: 1px solid #C4C7CC;			
+	border-top: 1px solid #C4C7CC;		
+	background: #ffffff;
+	width: 100%;
+	margin: 0 0 0px 0;
+}
+
+
+#DateBar td{
+	font-size: 12px;
+	line-height: 15px;
+	padding: 4px 6px 0px 6px;		
+	border-bottom: 1px dotted #C4C7CC;		
+	border-left: 1px solid #C4C7CC;	
+	white-space: nowrap;	
+}
+#DateBar th{
+	text-align: left;
+	padding: 2px 3px 0px 3px;
+	color: #5C5C5C;
+	border-top: 1px solid #F5F5F5;	
+	border-left: 1px solid #C4C7CC;
+	border-bottom: 1px solid #C4C7CC;
+	white-space: nowrap;	
+	font-weight: bolder;
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#DBDEE3,endColorStr=#F4F2F3,gradientType=1);
+}
+#DateBar th img {
+	width: 140px;
+}
+
+#DateBar th a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #C4C7CC;
+	font-size: 9px;
+	line-height: 9px;
+	text-decoration: none;
+	font-weight: normal;	
+}
+#DateBar th a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #535353;
+	font-size: 9px;
+	line-height: 9px;
+	text-decoration: none;	
+	font-weight: normal;
+}
+
+#DateFrame .DateNumber{
+	color: #6C6C6C;
+	text-align: right;
+	padding: 0px 10px 10px 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#DateFrameTree .DateNumber{
+	color: #6C6C6C;
+	text-align: right;
+	padding: 0px 10px 10px 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#DateFuntion {
+	border-left: 1px solid #C4C7CC;	
+	background: #F8F8F8;
+	width: 128px;
+	white-space: nowrap;
+}
+/* --------- Date --------- */
+.udfSubTitle {
+	font:16px times new roman;
+	color: red;
+	font-weight:bold;
+	line-height:20px;
+	letter-spacing:.1em;
+	}

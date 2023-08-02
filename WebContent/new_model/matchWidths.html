@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="../js/style2.css" rel="stylesheet" type="text/css">
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<script src="../jscript/pfcUtils.js"></script>
+	<script src="../jscript/function.js"></script>
+  </head>	
+  <body>
+    <title>組裝料條</title>
+    <span class="myfont"><br><br><br><br>&nbsp;</span><br>
+    <button id="btn5" class="button">重合材料寬度</button>
+    <button id="btn6" class="button">修改重合位置</button>
+    <script> 
+	
+	 $('body').addClass('changeImage',"image/background.jpg");
+      $("#btn1").on("click", function() { 
+		$(this).removeClass("button").addClass("mycss");
+		AssembleLYT();
+      }); 
+	  
+	 $("#btn2").on("click", function() { 
+		$(this).removeClass("button").addClass("mycss");
+		MatchPLTSize();
+      });
+	  
+	 $("#btn3").on("click", function() { 
+		$(this).removeClass("button").addClass("mycss");
+		RedefinePLTSize();
+      });
+	 
+	 $("#btn4").on("click", function() { 
+		$(this).removeClass("button").addClass("mycss");
+		RedefineSDSize();
+      });
+	  
+	 $("#btn5").on("click", function() { 
+		$(this).removeClass("button").addClass("mycss");
+		ReplaceMatWRef();
+      });
+	  
+	 $("#btn6").on("click", function() { 
+		$(this).removeClass("button").addClass("mycss");
+		RedefineMatW();
+      });
+	 
+	 $("#btn7").on("click", function() { 
+		$(this).removeClass("button").addClass("mycss");
+		SetStripCsys();
+      });
+	  
+	 $("#btn8").on("click", function() { 
+		//$(this).removeClass("button").addClass("mycss");
+		
+      });
+	 
+	 $("#btn9").on("click", function() { 
+		$(this).removeClass("button").addClass("mycss");
+		ReplacePLTCsysRef();
+      });
+	  
+	 $("#btn10").on("click", function() { 
+		//$(this).removeClass("button").addClass("mycss");
+		
+     });
+	  
+	  
+    </script> 
+
+  </body>
+  
+</html>

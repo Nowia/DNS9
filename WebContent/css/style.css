@@ -1,0 +1,108 @@
+body{ margin: 0px;}
+
+.td1
+{
+	font-size:13px ; font-weight:bold;
+}
+.td0
+{
+	font-size:14px ; font-weight:bold;
+}
+.grd1
+{
+	font-size:			12px;
+	border-collapse: 	collapse;
+	border-color:		DarkGray;
+	border-width:		1px;
+	border-style:		solid;
+	border-collapse:	collapse;
+	text-align:			center;
+	padding:			1;
+}
+.grd1 th
+{
+	color:White;
+	background-color:#006699;
+	font-weight:bold;
+}
+.grd1 th a
+{
+	color:White;
+	background-color:#006699;
+	font-weight:bold;
+}
+.grd1 td
+{
+	border-color:	LightGray;
+}
+.subTitle1
+{
+	background-color:Silver; color:Black; font-weight:bolder; font-size:12pt;
+}
+.subTitle2
+{
+	background-color:#ccffff; color:Black; font-size:12pt;
+}
+A:link
+{	
+	color: #3333cc;
+	text-decoration: none;
+}	
+		
+A:visited	{	
+	text-decoration:	none;
+	color:	#3333cc;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	color:	#3333cc;
+	}	
+		
+A:hover	{	
+	text-decoration:	underline;
+	color:	#3333cc;
+	}	
+
+.bd BODY {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	font-size: 12px;
+}
+.cursor{
+	cursor:pointer;
+}
+
+.even {
+	background:#F7F7F7;
+} 
+
+.odd {
+	background:#E7E7FF;
+}
+.bg {
+	background:#006699;
+	color: #ffffff;
+} 
+.rw0{
+	background-color:#E7E7FF; color:Black;
+}
+.rw1{
+	background-color:#F7F7F7; color:Black;
+}
+.bg-input {
+	background: #F25656;
+}
+
+.display th{
+	Background-Color: LightGray;
+}
+
+<!--for Datatable in ItemList-->
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
